@@ -1,0 +1,54 @@
+@import url(__place/place__title.css);
+@import url(__place/place__image.css);
+@import url(__place/__paragraph/place__paragraph.css);
+
+@import url(__place/__website/place__website.css);
+
+.place {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-column-gap: 40px;
+  grid-row-gap: 60px;
+  width: 100%;
+  margin: 0 0;
+  padding-bottom: 72px;
+
+  }
+
+  @media screen and (max-width: 768px) {
+    .place {
+      grid-template-columns: repeat(1, 1fr); 
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows:  75px auto;
+      grid-column-gap: 28px;
+      grid-row-gap: 40px;
+      padding-bottom: 72px;
+        }
+    }
+      
+  @media screen and (max-width: 750px){
+    .place {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(2, auto);
+      padding-bottom: 72px;
+    }
+  }
+
+
+    @media screen and (max-width: 375px) {
+    .place {
+      padding-bottom: 48px;
+      grid-row-gap: 24px;
+        }
+    }
+    
+ 
+    @media screen and (max-width: 320px) {
+    .place {
+      grid-row-gap: 20px;
+        
+        }
+    }
+    

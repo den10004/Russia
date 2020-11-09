@@ -1,0 +1,48 @@
+.place__description2 {
+    
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 auto 0 auto;
+    color: #FFFFFF; 
+}
+
+
+
+
+
+
+@media screen and (max-width: 1024px)  {
+    .place__description2 {
+    margin: 0 auto 0px auto;
+  }
+    }
+  
+    
+    @media screen and (max-width: 768px) {
+    .place__description2 {
+    font-size: 16px;
+    line-height: 27px;
+        }
+    }
+    
+    @media screen and (max-width: 375px) {
+    .place__description2 {
+    margin-left: 16px;
+    font-size: 16px;
+    line-height: 27px;
+    max-width: 343px;
+        }
+    }
+    
+    
+    @media screen and (max-width: 320px) {
+    .place__description2 {
+    font-size: 16px;
+    max-width: 288px;
+
+        
+        }
+    }

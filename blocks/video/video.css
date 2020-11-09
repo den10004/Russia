@@ -1,0 +1,30 @@
+@import url(video__title.css);
+@import url(video__subtitle.css);
+@import url(video__container.css);
+
+
+
+.video {
+    display: flex;
+    flex-direction: column;
+    width: 92.5%;
+    margin: 30px auto;
+    margin-bottom: 0px;
+   
+}
+@media screen and (max-width: 768px) {
+    .video {
+    margin: 30px auto 0px auto;
+    
+        }
+    }
+
+
+
+
+@media screen and (max-width: 375px) {
+    .video {
+    margin: 16px auto 0px auto;
+    
+        }
+    }

@@ -1,0 +1,13 @@
+.header__lang_active {
+text-decoration: underline;
+font-size: 24px;
+line-height: 23px;
+
+}
+@media screen and (max-width: 375px) {
+    .header__lang_active {
+       
+        font-size: 18px;
+        line-height: 17px;
+    }
+}

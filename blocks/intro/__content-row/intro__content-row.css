@@ -1,0 +1,9 @@
+@import url(__text/intro__main.css);
+@import url(__text/intro__/intro__author.css);
+
+
+.intro__content-row {
+display: flex;
+
+flex-direction: row; 
+}

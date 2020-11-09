@@ -1,0 +1,40 @@
+.cover__image {
+    
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 1184px;
+    min-width: 320px;
+    max-height: 594px;
+    width: 100%;
+    background: url(../../images/cover.jpg);
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 0px;
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    .cover__image {
+    max-height: 562px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__image {
+    height: 500px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .cover__image {
+    max-height: 272px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__image {
+    max-height: 216px;
+    }
+}

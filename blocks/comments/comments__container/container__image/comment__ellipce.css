@@ -1,0 +1,38 @@
+.comment__ellipce {
+border-radius: 50%;
+max-width: 97px;
+text-align: center;
+align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .comment__ellipce {
+    margin-top: 71px;
+        }
+    }
+
+@media screen and (max-width: 375px) {
+    .comment__ellipce {
+    margin-top: 42px;
+        }
+    }
+
+@media screen and (max-width: 320px) {
+.comment__ellipce {
+margin-top: 34px;
+    }
+}

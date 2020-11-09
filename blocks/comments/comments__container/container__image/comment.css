@@ -1,0 +1,18 @@
+@import url(comment__ellipce.css);
+@import url(comment__quote.css);
+@import url(comment__author.css);
+
+.comment {
+display: flex;
+flex-direction: column;
+
+max-width: 382px;
+
+}
+@media screen and (max-width: 1000px) {
+    .comment {
+        align-items: center;
+       
+    
+    }
+}

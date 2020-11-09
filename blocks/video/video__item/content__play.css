@@ -1,0 +1,28 @@
+.content__play {
+
+width: 41px;
+height: 41px;
+margin-bottom: auto;
+
+}
+
+
+@media screen and (max-width: 725px) {
+    .content__play {
+        width: 41px;
+        height: 41px;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        .content__play {
+         width: 41px;
+        height: 41px;
+        }
+    }
+
+
+
+
+        
+       

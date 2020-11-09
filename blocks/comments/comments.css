@@ -1,0 +1,48 @@
+@import url(comments__title.css);
+@import url(comments__subtitle.css);
+@import url(comments__container/comments__container.css);
+
+.comments {
+    max-width: 68.4%;
+    margin: 102px auto 102px auto;
+    max-width: 1184px;
+   
+
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+.comments {
+    max-width: calc(100% - 48px); 
+
+   
+    }
+}
+
+@media screen and (max-width: 1023px) {
+.comments {
+    max-width: calc(100% - 48px); 
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+.comments {
+    max-width: calc(100% - 54px);
+
+    }
+}
+
+@media screen and (max-width: 375px) {
+.comments {
+    margin: 64px auto 48px auto;
+    max-width: 350px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+.comments {
+    margin: 64px auto 64px auto;
+    max-width: 304px;
+   
+    }
+}

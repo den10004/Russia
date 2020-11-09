@@ -1,0 +1,41 @@
+@import url(digit.css);
+.intro__text-digits {
+
+max-width: 383px;
+padding: 0px 0px 0px 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .digit {
+    max-width: calc(100% - 16px);
+    font-size: 13px;
+    line-height: 20px;
+   
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .digit {
+    max-width: calc(100% - 16px);
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .digit {
+    max-width: calc(100% - 16px);
+ 
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .digit {
+    max-width: calc(100% - 14px);
+    font-size: 12px;
+    line-height: 19px;     
+      
+    }
+}
+

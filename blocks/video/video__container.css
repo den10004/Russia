@@ -1,0 +1,56 @@
+@import url(./video__item/video__item.css);
+
+.video__container {
+    display: flex;
+    margin: 0 auto;   
+    width: 100%;
+    justify-content: space-between;
+       
+ }
+
+ 
+ @media screen and (max-width: 1920px) {
+    .video__container {
+        width: 89%;
+   
+   }
+}
+@media screen and (max-width: 1440px) {
+    .video__container {
+        width: 89%;
+   
+   }
+}
+
+@media screen and (max-width: 1280px) {
+    .video__container {
+        width: 100%;
+   
+   }
+}
+
+
+@media screen and (max-width: 768px) {
+    .video__container {
+        width: 101.65%;
+   
+   }
+}
+
+
+@media screen and (max-width: 375px) {
+    .video__container {
+        width: 99%;
+    flex-direction: column;
+
+
+ 
+
+   }
+}
+@media screen and (max-width: 320px) {
+    .video__container {
+        width: 97.5%;
+   
+   }
+}

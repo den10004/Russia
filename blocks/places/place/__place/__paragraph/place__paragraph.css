@@ -1,0 +1,30 @@
+@import url(../__paragraph/place__description/place__description.css);
+
+
+.place__paragraph {
+
+font-family: 'Inter', Arial, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+color: #FFFFFF;
+}
+
+    @media screen and (max-width: 768px) {
+        .place__paragraph {
+        font-size: 16px;
+        line-height: 27px;
+   
+      
+        }
+    }
+    
+    @media screen and (max-width: 375px) {
+    .place__paragraph {
+        width: 92.5%;
+
+        }
+    }
+    
+   

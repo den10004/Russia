@@ -1,0 +1,30 @@
+
+.place__url {
+/*margin-top: 72px;
+width: 484px;*/
+font-family: 'Inter', Arial, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+text-decoration-line: underline;
+opacity: 1.0;
+color: #FFFFFF;
+margin: 0px 0px;
+
+}
+
+.place__url:hover {
+    /*margin-top: 72px;
+    width: 484px;*/
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    opacity: 0.5;
+    color: #FFFFFF;
+}
+
+

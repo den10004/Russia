@@ -1,0 +1,19 @@
+@import url(./header__lang/header__lang.css);
+@import url(./header__lang/header__lang_active.css);
+
+
+.header__menu {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 16px;
+    margin-right: 30px;
+    max-width: 80px;
+    
+}
+
+
+
