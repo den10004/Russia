@@ -4,4 +4,4 @@
 Для запуска проекта, скачайте архив и запустите index.html
 
 # Используемые технологии:
-HTML, CSS, Flexbox-layout, Grid-layout.
+HTML, CSS, Flexbox-layout, Grid-layout
